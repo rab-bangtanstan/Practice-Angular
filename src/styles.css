@@ -8,14 +8,17 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  font-size: large;
 }
 
 .container {
+  /* font-family: "Poppins",sans-serif;
+  font-size: large; */
   max-width: 400px;
   margin: 140px 80px;
   overflow: auto;
   min-height: 600px;
-  border: 1px solid rgb(214, 79, 16);
+  border: 3px solid rgb(214, 79, 16);
   padding: 30px;
   border-radius: 5px;
   
