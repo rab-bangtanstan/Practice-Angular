@@ -19,20 +19,23 @@
         <div class="login">
        
             <label>User ID/ Email Address</label><br><br>
-            <input type ="email" required name ="email" [(ngModel)]="email">
-            <!-- <input type ="email" required> -->
+            <!-- <input type ="email" name ="email" [(ngModel)]="email" required > -->
+            <input type ="email" required>
         
     </div>
 
     <div class="login">
        
             <label>Password</label><br><br>
-            <input type ="password" required name="password" [(ngModel)]="password">
-            <!-- <input type ="password" required> -->
+            <!-- <input type ="password" name="password" [(ngModel)]="password" required> -->
+            <input type ="password" required>
         
     </div>
     <div class="login">
-        <input id= submit type ="submit" value="SIGN ON" (click)="signOn()">
+        <!-- <input id= submit type ="submit" value="SIGN ON" (click)="signOn()"> -->
+        <!-- <input id=submit type="submit" value="SIGN ON" > -->
+        <button id=submit routerLink="dash">SIGN ON</button>
+        <!-- <input id=submit type="submit" value="SIGN ON" (click)="goToPage('dash')"> -->
     </div>
 
     </form>

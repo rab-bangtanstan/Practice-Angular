@@ -1,7 +1,17 @@
 
 <!-- <h1>{{title}}</h1> -->
 <h2>
-    <app-signon>
-        
-    </app-signon>
+    <!-- <button routerLink="dash">Navigate</button> -->
+    <app-signon *ngIf="router.url == '/'"> </app-signon>
+
+    <app-dash *ngIf="router.url == '/dash'"></app-dash>
+    <!-- shows the sign only if its the home page -->
+    <!-- <app-header>
+
+    </app-header> -->
+    <!-- <router-outlet></router-outlet> -->
+    <!-- <app-dash>
+
+    </app-dash> -->
 </h2>
+<!-- <router-outlet></router-outlet> -->
